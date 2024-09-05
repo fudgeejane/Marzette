@@ -1,0 +1,114 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to include padding and border in the element's total width and height */
+}
+
+/* Styling the body */
+body {
+    background-color: #e4e4d5fd;
+    color: rgb(0, 0, 0); /* Added to improve text visibility */
+    font-family: Anton, sans-serif; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+/* Styling the navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the navbar content */
+    background-color: #e4e4d5fd;
+    z-index: 1000;
+    border-bottom: 1px solid #e4e4d5fd;
+    padding: 0 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+}
+
+/* Styling the list inside the navbar */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling each list item */
+.navbar ul li {
+    margin: 0 10px; /* Optional: spacing between items */
+}
+
+/* Styling the links in the navbar */
+.navbar ul li a {
+    color: #3b2626;
+    text-decoration: none;
+    padding: 10px 25px; /* Adjust padding if needed */
+    display: block;
+    font-weight: 500;
+}
+
+/* Hover effect for navbar links */
+.navbar ul li a:hover {
+    background-color: #795050a8;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #a4ab89b6;
+}
+
+
+/* styles the profile wrapper in hero section */
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* styles the profile image */
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* styles applied on mouseover on icons */
+.icons .fas .fab:hover {
+    color: #a4ab89;
+}
+
+/* Styling the content */
+.content {
+    margin-top: 75px; /* Adjust this to match the height of the navbar */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+
+.icons a i {
+            font-size: 25px; /* Adjust icon size as needed */
+            margin: 0 10px; /* Optional: space between icons */
+}
+.icons .fa-instagram {
+            color: #E4405F; 
+}
+.icons .fa-twitter {
+            color: #1DA1F2; 
+}
+.icons .fa-facebook {
+            color: #4267B2; 
+}
+        .icons .fa-envelope {
+            color: #333333; 
+}
+ 
+

@@ -1,0 +1,63 @@
+.me {
+    background-color: #e4e4d5fd;
+    color: #3b2626;
+    font-family: Anton, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.experience-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+
+.experience-card {
+    width: 300px;
+    height: 510px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: #a37878b7;
+    position: relative;
+}
+
+.card-image-wrapper {
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.card-image-wrapper img {
+    width: 100px;
+    margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 20px;
+    }
+    .card-content {
+        font-size: 14px;
+    }
+}
+
+
